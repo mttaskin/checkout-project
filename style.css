@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.071);
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.box{
+    display: flex;
+  padding-bottom: 1rem;
+}
+
+img{
+    width: 160px;
+    height: 200px;
+    border-radius: 1rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.3rem .5rem;
+
+}
+
+.quantity-control{
+    display: flex;
+    border: 1px solid ;
+    justify-content: space-between;
+    padding: .8rem;
+    border-radius: 3px;
+}
+
+i{
+    border: 1px solid;
+    padding: .3rem;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.061);
+}
+
+button{
+    background-color: blueviolet;
+    padding: .3rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.color{
+    color: rgb(255, 170, 0);
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .7rem;
+    border-top: 1px solid;
+
+}
+
+.shopping-card{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+.shopping-card p{
+    position: relative;
+    left: 1rem;
+    bottom: -0.4rem;
+    color: brown;
+}
+.shopping-card i{
+    color: white;
+}
